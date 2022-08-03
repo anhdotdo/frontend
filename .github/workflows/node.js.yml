@@ -27,4 +27,4 @@ jobs:
     - run: npm i
     - run: npm run build --if-present
     - run: npm test
-    - run: mv /home/ubuntu/actions-runner/_work/frontend/frontend/build /var/www/html
+    - run: rm -rf /var/www/build && mv ./build /var/www/
