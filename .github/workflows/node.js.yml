@@ -27,5 +27,3 @@ jobs:
     - run: npm i
     - run: npm run build --if-present
     - run: npm test
-    - run: rm -rf /var/www/build 
-    - run: mv ./build /var/www/
